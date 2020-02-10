@@ -484,15 +484,6 @@ h6, .h6,
 .h {
   line-height: 1.1;
   color: #2b2d53; }
-  @media (min-width: 768px) {
-    h1, .h1,
-    h2, .h2,
-    h3, .h3,
-    h4, .h4,
-    h5, .h5,
-    h6, .h6,
-    .h {
-      line-height: 1; } }
 
 h1, .h1 {
   margin: 0 0 15px;
@@ -1273,6 +1264,9 @@ html.nav-active {
 .card-item .card-description {
   padding: 20px 10px;
   background: rgba(43, 45, 83, 0.05); }
+  @media (min-width: 992px) {
+    .card-item .card-description {
+      min-height: 280px; } }
 
 .card-item h4 {
   margin-bottom: 10px;
